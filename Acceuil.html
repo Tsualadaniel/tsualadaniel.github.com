@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="Acceuil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+
+    <section class="headre">
+        <nav>
+            <!-- pour le logo -->
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul class="couleurs">
+                    <li><a href="Acceuil.html">ACCEUIL</a></li>
+                    <li><a href="https://wa.me/c/237693778850">NOS SERVICES</a></li>
+                    <li><a href="https://wa.me/message/IXE2FLQROUXTE1">NOUS CONTACTER</a></li>
+                    <li><a href="Profils.html">PROFIL</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1 class="couleur">Enquête sur l'utilisation de l'IA</h1><br>
+            <p>Bonjour a vous nous sommes l'entreprise ALVES GLOBAL. nous menons une enquete sur l'utilisation de l'IA  <br> Nous voulons vous posser quelques questions . <br>Cliquez sur OUI pour continuer ou sur NON si vous ne voulez pas </p>
+            <a href="Questionnaire.html" class="hero-btn">OUI</a>                           <a href="Bouton non.html" class="hero-btn">NON</a>
+        </div>
+    </section>
+    <section class="pls">
+    <div class="dls">
+        <h1>Contactez nous en cas de probleme</h1><br> <br><br><br>
+        <a href="https://wa.me/message/IXE2FLQROUXTE1" class="hero-btn">Contactez nous</a>
+    </div>
+</section>
+          
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    <!-- <section class="dan">
+    <img src="Membres/image Alves/boss.JPG" alt="" title="Mr.ALVES">
+</section> -->
+</body>
+</html>
